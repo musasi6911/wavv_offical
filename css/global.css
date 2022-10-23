@@ -1,0 +1,236 @@
+@import url('reset.css');
+
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+:root{
+  --pri-color: #c30d22;
+  --pri-hover: #9f1f24;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+a{
+  color: #333;
+  text-decoration: none;
+}
+
+input, textarea, button{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.wrapper{
+  display: flex;
+}
+
+nav{
+  background-color: #f6f6f6;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+main{
+  flex-grow: 1;
+  margin-left: 250px;
+}
+
+/* -------------- Bottom Player -------------- */
+.player{
+  width: 100vw;
+  height: 80px;
+  background-color: #311717;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* info */
+.player-info{
+  display: block;
+  color: white;
+  flex-grow: 1;
+}
+
+.player-info img{
+  height: 60px;
+  margin-right: 10px;
+  float: left;
+}
+
+.player-info h2{
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.player-info span{
+  display: block;
+  font-size: 13px;
+  opacity: .5;
+}
+/* control */
+.player-control{
+  flex-grow: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-control i{
+  font-size: 38px;
+  margin: 0 10px;
+  cursor: pointer;
+  opacity: .7;
+}
+
+.player-control i:first-child, .player-control i:last-child{
+  font-size: 18px;
+}
+
+.player-control i:hover{
+  transform: scale(1.2);
+  opacity: 1;
+}
+/* volume */
+.player-volume{
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.player-volume i{
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.player-volume_bar{
+  width: 100px;
+  height: 5px;
+  background-color: rgba(255,255,255,.5);
+  border-radius: 10px;
+}
+
+.player-volume_bar p{
+  height: 5px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+
+/* -------------- Left Navigation -------------- */
+nav .logo{
+  display: block;
+}
+
+nav .logo img{
+  display: block;
+  width: 180px;
+  margin: 30px auto 50px;
+}
+
+nav ul{
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 18px;
+}
+
+nav li{
+  margin-bottom: 5px;
+}
+
+nav li a{
+  display: block;
+  line-height: 2.5;
+  padding: 0 20px;
+  border-radius: 50px;
+}
+
+nav li i{
+  margin-right: 15px;
+}
+
+nav li a:hover{
+  background-color: #e5e5e5;
+}
+
+/* -------------- Right Top -------------- */
+.top{
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  position: fixed;
+  left: 250px;
+  top: 0;
+  width: calc(100% - 250px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 10;
+}
+
+.top-nologin{
+  padding-right: 30px;
+}
+
+.top-nologin button{
+  background-color: var(--pri-color);
+  border: 0;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 0 20px;
+  color: white;
+  height: 40px;
+  cursor: pointer;
+}
+
+.top-nologin i{
+  margin-right: 10px;
+}
+
+.top-nologin .lgre{}
+
+.top-nologin .lgre:hover{
+  background-color: var(--pri-hover);
+}
+
+.top-nologin .cowa{
+  background-color: #ccc;
+  color: #e5e5e5;
+  cursor: not-allowed;
+}
+
+
+/* -------------- Right Content -------------- */
+.content{
+  margin-top: 60px;
+  padding: 1px 30px 70px;
+}
+
+
+
+
+
+
+
+
+
+
+

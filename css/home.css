@@ -1,0 +1,89 @@
+/* -------------- Right AD -------------- */
+.top-ad{
+  display: block;
+  margin-top: 30px;
+  color: white;
+  position: relative;
+}
+
+.top-ad .ad-text{
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+
+.top-ad h2{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.top-ad p{}
+
+.top-ad img{
+  width: 100%;
+}
+
+/* -------------- Right List -------------- */
+.list-title{
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list li{
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+
+.list a{
+  display: block;
+  text-align: center;
+  position: relative;
+}
+
+.list img{
+  display: block;
+  border-radius: 50%;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.list h2{
+  font-size: 18px;
+}
+
+/* Square List */
+.list-square img{
+  border-radius: 0;
+}
+
+.list-square span{
+  color: #999;
+  display: block;
+  font-size: 13px;
+}
+
+.list-square i{
+  display: none;
+  line-height: .5;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  transform: translate(-50%, -50%);
+  font-size: 72px;
+  color: var(--pri-color);
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.list-square a:hover i{
+  display: block;
+}
