@@ -80,7 +80,7 @@
   transform: translate(-50%, -50%);
   font-size: 72px;
   color: var(--pri-color);
-  background-color: #fff;
+  background-image: radial-gradient(#fff 20%, transparent);
   border-radius: 50%;
 }
 
