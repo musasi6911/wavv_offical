@@ -52,7 +52,7 @@
 .list img{
   display: block;
   border-radius: 50%;
-  width: 200px;
+  width: 180px;
   margin-bottom: 10px;
 }
 
@@ -75,8 +75,8 @@
   display: none;
   line-height: .5;
   position: absolute;
-  left: 100px;
-  top: 100px;
+  left: 90px;
+  top: 90px;
   transform: translate(-50%, -50%);
   font-size: 72px;
   color: var(--pri-color);
