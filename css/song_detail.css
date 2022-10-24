@@ -83,7 +83,7 @@
   font-size: 18px;
 }
 
-.song-detail_btns li:first-child button{
+.song-detail_btns .song-detail_play{
   background-color: var(--pri-color);
   color: white;
   border: 0;
