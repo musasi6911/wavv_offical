@@ -142,7 +142,7 @@ nav .logo{
 
 nav .logo img{
   display: block;
-  width: 180px;
+  width: 150px;
   margin: 30px auto 50px;
 }
 
@@ -190,32 +190,28 @@ nav li a:hover{
   padding-right: 30px;
 }
 
-.top-nologin button{
+.top-nologin a{
+  display: block;
   background-color: var(--pri-color);
-  border: 0;
   border-radius: 5px;
   margin-left: 10px;
   padding: 0 20px;
   color: white;
   height: 40px;
-  cursor: pointer;
+  line-height: 40px;
 }
 
 .top-nologin i{
   margin-right: 10px;
 }
 
-.top-nologin .lgre{}
+.top-nologin a{}
 
-.top-nologin .lgre:hover{
+.top-nologin a:hover{
   background-color: var(--pri-hover);
 }
 
-.top-nologin .cowa{
-  background-color: #ccc;
-  color: #e5e5e5;
-  cursor: not-allowed;
-}
+
 
 
 /* -------------- Right Content -------------- */
