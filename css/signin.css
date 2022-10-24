@@ -1,4 +1,9 @@
 
+.signin-wrapper{
+  background-image: url(../img/signin_bg.jpg);
+  background-size: cover;
+}
+
 .signin-out{
   display: flex;
   justify-content: center;
