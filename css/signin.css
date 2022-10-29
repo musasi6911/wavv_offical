@@ -45,20 +45,12 @@
   color: #ccc;
 }
 
-.signin-email input[type="email"]{
+.signin-email input[type="email"], .signin-email input[type="password"], .signin-email input[type="text"]{
   width: 100%;
   height: 40px;
   border: 0;
   border-bottom: 1px solid #ccc;
   margin-bottom: 20px;
-}
-
-.signin-email input[type="password"]{
-  width: 100%;
-  height: 40px;
-  border: 0;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 30px;
 }
 
 .signin-email input[type="Submit"]{
