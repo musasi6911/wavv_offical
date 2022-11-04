@@ -164,6 +164,7 @@ nav .logo img{
   line-height: 2.5;
   padding: 0 20px;
   border-radius: 50px;
+  cursor: not-allowed;
 }
 
 .nav-main li i{
@@ -186,6 +187,7 @@ nav .logo img{
   display: block;
   line-height: 2.5;
   padding-left: 30px;
+  cursor: not-allowed;
 }
 
 .nav-sub li a:hover{
