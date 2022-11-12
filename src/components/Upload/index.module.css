@@ -1,26 +1,72 @@
+.top {
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  position: fixed;
+  left: 250px;
+  top: 0;
+  width: calc(100% - 250px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 10;
+  caret-color: transparent;
+}
 
-.composer-out{
+.top-login {
+  padding-right: 20px;
+  display: flex;
+}
+
+.top-login .top-userhead {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.top-login .top-userhead img {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.top-upload {
+  background-color: var(--pri-color);
+  color: white;
+  padding: 0 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.top-upload img {
+  margin-right: 10px;
+}
+
+.composer-out {
   width: 1020px;
   margin: 0 auto;
 }
 
-.composer-out h1{
+.composer-out h1 {
   font-size: 52px;
   line-height: 3;
 }
 
-.composer-main{
+.composer-main {
   display: flex;
 }
 
 /* File upload */
-.file-upload-block{
+.file-upload-block {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
 }
 
-.file-upload-btn{
+.file-upload-btn {
   display: block;
   padding: 0 20px;
   height: 40px;
@@ -33,7 +79,7 @@
   margin-right: 10px;
 }
 
-.file-upload-block p{
+.file-upload-block p {
   width: calc(60% - 10px);
   height: 40px;
   line-height: 40px;
@@ -44,12 +90,12 @@
 }
 
 /* Image upload */
-.img-upload-block{
+.img-upload-block {
   margin-right: 20px;
   width: 400px;
 }
 
-.img-upload{
+.img-upload {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,56 +107,13 @@
   color: #999;
 }
 
-.img-upload i{
+.img-upload i {
   font-size: 98px;
   color: #ccc;
   line-height: 1;
 }
 
-.img-upload img{
+.img-upload img {
   max-width: 100%;
   max-height: 100%;
 }
-
-/* ------------------- Composer Data ------------------- */
-.composer-data{
-  flex-grow: 1;
-  padding-top: 20px;
-}
-
-.composer-data h3{
-  font-size: 24px;
-  font-weight: 700;
-  margin-top: 20px;
-}
-
-.composer-data input[type="text"]{
-  border: 1px solid #e5e5e5;
-  width: 100%;
-  height: 40px;
-  border-radius: 5px;
-  padding: 0 10px;
-}
-
-.composer-data textarea{
-  width: 100%;
-  height: 100px;
-  border: 1px solid #e5e5e5;
-  border-radius: 5px;
-  padding: 5px 10px;
-  resize: none;
-}
-
-.composer-send{
-  background-color: var(--pri-color);
-  height: 50px;
-  padding: 0 50px;
-  color: white;
-  border-radius: 5px;
-  border: 0;
-  display: block;
-  margin: 50px auto 0;
-  cursor: pointer;
-}
-
-

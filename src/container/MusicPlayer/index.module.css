@@ -1,0 +1,100 @@
+.player {
+  width: 100vw;
+  height: 80px;
+  background-color: #311717;
+  position: fixed;
+  left: 0;
+  z-index: 10;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.player.show {
+  bottom: 0;
+  transition: 0.8s;
+}
+.player.close {
+  bottom: -80px;
+  transition: 0.8s;
+}
+/* info */
+.player-info {
+  cursor: pointer;
+  color: white;
+  flex-grow: 1;
+}
+
+.player-info img {
+  height: 60px;
+  margin-right: 10px;
+  float: left;
+}
+
+.player-info h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.player-info span {
+  display: block;
+  font-size: 13px;
+  opacity: 0.5;
+}
+/* control */
+.player-control {
+  flex-grow: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-control svg {
+  font-size: 38px;
+  margin: 0 10px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.player-control i:first-child,
+.player-control i:last-child {
+  font-size: 18px;
+}
+
+.player-control i:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+/* volume */
+.player-volume {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.player-volume svg {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.player-volume_bar {
+  width: 100px;
+  height: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+.player-volume_bar p {
+  height: 5px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.player-control svg:first-child,
+.player-control svg:last-child {
+  font-size: 18px;
+}
