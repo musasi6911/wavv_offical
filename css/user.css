@@ -42,6 +42,10 @@
   margin-right: 5px;
 }
 
+.user-head_info img{
+  height: 30px;
+}
+
 .user-head_info ol{
   display: flex;
 }
