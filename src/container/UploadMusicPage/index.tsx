@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./index.module.css";
-import Upload from "../../components/Upload";
+import Upload from "components/Upload";
 import classnames from "classnames/bind";
 
 const cx = classnames.bind(style);

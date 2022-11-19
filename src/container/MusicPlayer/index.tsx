@@ -1,8 +1,8 @@
 import React from "react";
 import classnames from "classnames/bind";
 import style from "./index.module.css";
-import top1 from "../../assets/top1.jpg";
-import { RootState } from "../../redux/store";
+import top1 from "assets/top1.jpg";
+import { RootState } from "redux/store";
 import { useSelector } from "react-redux";
 import {
   VolumeUpFill,
@@ -14,7 +14,7 @@ import {
 } from "react-bootstrap-icons";
 
 import { useDispatch } from "react-redux";
-import { closeMusicPlayer } from "../../redux/musicPlayer/musicPlayerSlice";
+import { closeMusicPlayer } from "redux/musicPlayer/musicPlayerSlice";
 import { useNavigate } from "react-router-dom";
 
 const cx = classnames.bind(style);
