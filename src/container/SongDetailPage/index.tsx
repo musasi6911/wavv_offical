@@ -1,5 +1,5 @@
 import React from "react";
-import Upload from "../../components/Upload";
+import Upload from "components/Upload";
 import style from "./index.module.css";
 import {
   ClockFill,
@@ -10,17 +10,17 @@ import {
   Heart,
 } from "react-bootstrap-icons";
 import { useDispatch } from "react-redux";
-import { showMusicPlayer } from "../../redux/musicPlayer/musicPlayerSlice";
-import Top7 from "../../assets/top7.jpg";
-import Top13 from "../../assets/top13.jpg";
-import Top14 from "../../assets/top14.jpg";
-import Top15 from "../../assets/top15.jpg";
-import Top16 from "../../assets/top16.jpg";
-import Top17 from "../../assets/top17.jpg";
-import Head1 from "../../assets/head1.jpg";
-import Head2 from "../../assets/head2.jpg";
-import Head3 from "../../assets/head3.jpg";
-import Head4 from "../../assets/head4.jpg";
+import { showMusicPlayer } from "redux/musicPlayer/musicPlayerSlice";
+import Top7 from "assets/top7.jpg";
+import Top13 from "assets/top13.jpg";
+import Top14 from "assets/top14.jpg";
+import Top15 from "assets/top15.jpg";
+import Top16 from "assets/top16.jpg";
+import Top17 from "assets/top17.jpg";
+import Head1 from "assets/head1.jpg";
+import Head2 from "assets/head2.jpg";
+import Head3 from "assets/head3.jpg";
+import Head4 from "assets/head4.jpg";
 
 import classnames from "classnames/bind";
 

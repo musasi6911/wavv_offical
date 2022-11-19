@@ -2,8 +2,8 @@ import React from "react";
 import style from "./index.module.css";
 import classnames from "classnames/bind";
 import { useDispatch } from "react-redux";
-import { closeMusicPlayer } from "../../redux/musicPlayer/musicPlayerSlice";
-import logo from "../../assets/logo.svg";
+import { closeMusicPlayer } from "redux/musicPlayer/musicPlayerSlice";
+import logo from "assets/logo.svg";
 import {
   GraphUpArrow,
   Search,

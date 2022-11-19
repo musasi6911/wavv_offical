@@ -1,16 +1,16 @@
 import React from "react";
-import Upload from "../../components/Upload";
+import Upload from "components/Upload";
 import style from "./index.module.css";
 import { useDispatch } from "react-redux";
-import { showMusicPlayer } from "../../redux/musicPlayer/musicPlayerSlice";
+import { showMusicPlayer } from "redux/musicPlayer/musicPlayerSlice";
 import classnames from "classnames/bind";
-import Top1 from "../../assets/top1.jpg";
-import Top2 from "../../assets/top2.jpg";
-import Top3 from "../../assets/top3.jpg";
-import Top4 from "../../assets/top4.jpg";
-import Top5 from "../../assets/top5.jpg";
+import Top1 from "assets/top1.jpg";
+import Top2 from "assets/top2.jpg";
+import Top3 from "assets/top3.jpg";
+import Top4 from "assets/top4.jpg";
+import Top5 from "assets/top5.jpg";
 
-import Head3 from "../../assets/head3.jpg";
+import Head3 from "assets/head3.jpg";
 import {
   PlayCircle,
   MusicNoteBeamed,
