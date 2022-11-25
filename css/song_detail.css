@@ -155,6 +155,42 @@
 /* --------------- Comments --------------- */
 .song-detail_comments{}
 
+.comments-text{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.comments-text img{}
+
+.comments-text h4{}
+
+.comments-text form{
+  display: flex;
+}
+
+.comments-text div{
+  background-color: #f0f2f5;
+  padding: 10px 15px;
+  border-radius: 30px;
+  outline: 0;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.comments-text div[contentEditable=true]:empty:not(:focus):before {
+  content: attr(data-text);
+  color: #999;
+}
+
+.comments-text button{
+  background-color: var(--pri-color);
+  color: white;
+  border: 0;
+  border-radius: 50px;
+  height: 45px;
+  padding: 0 20px;
+}
+
 .song-detail_comments h3{
   font-size: 24px;
   font-weight: 700;

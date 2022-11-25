@@ -75,6 +75,13 @@
   margin-top: auto;
 }
 
+.signin-email b{
+  font-size: 12px;
+  text-align: center;
+  color: red;
+  margin-top: 3px;
+}
+
 .signin-email li{}
 
 .signin-email li a{
