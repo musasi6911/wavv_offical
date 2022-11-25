@@ -4,11 +4,7 @@ import style from "./index.module.css";
 import { useDispatch } from "react-redux";
 import { showMusicPlayer } from "redux/musicPlayer/musicPlayerSlice";
 import classnames from "classnames/bind";
-import Top1 from "assets/top1.jpg";
-import Top2 from "assets/top2.jpg";
-import Top3 from "assets/top3.jpg";
-import Top4 from "assets/top4.jpg";
-import Top5 from "assets/top5.jpg";
+import { tracks } from "mock/data";
 
 import Head3 from "assets/head3.jpg";
 import {
@@ -83,51 +79,17 @@ const ComposerPage: React.FC = () => {
           <div className={cx("user-tracks")}>
             <h3>Tracks</h3>
             <ul>
-              <li onClick={() => dispatch(showMusicPlayer())}>
-                <div className={cx("user-tracks_cover")}>
-                  <PlayCircleFill />
-                  <img src={Top1} alt="" />
-                </div>
-                <h2>Past Fantasy</h2>
-                <p>331150</p>
-                <span>2:17</span>
-              </li>
-              <li onClick={() => dispatch(showMusicPlayer())}>
-                <div className={cx("user-tracks_cover")}>
-                  <PlayCircleFill />
-                  <img src={Top2} alt="" />
-                </div>
-                <h2>Endless Night Sky</h2>
-                <p>54610</p>
-                <span>3:10</span>
-              </li>
-              <li onClick={() => dispatch(showMusicPlayer())}>
-                <div className={cx("user-tracks_cover")}>
-                  <PlayCircleFill />
-                  <img src={Top3} alt="" />
-                </div>
-                <h2>Sit Around Morning</h2>
-                <p>788</p>
-                <span>3:54</span>
-              </li>
-              <li onClick={() => dispatch(showMusicPlayer())}>
-                <div className={cx("user-tracks_cover")}>
-                  <PlayCircleFill />
-                  <img src={Top4} alt="" />
-                </div>
-                <h2>HOUSE Dinner</h2>
-                <p>3500</p>
-                <span>4:10</span>
-              </li>
-              <li onClick={() => dispatch(showMusicPlayer())}>
-                <div className={cx("user-tracks_cover")}>
-                  <PlayCircleFill />
-                  <img src={Top5} alt="" />
-                </div>
-                <h2>Mess Of Legend</h2>
-                <p>1549</p>
-                <span>0:27</span>
-              </li>
+              {tracks.map((song) => (
+                <li onClick={() => dispatch(showMusicPlayer())}>
+                  <div className={cx("user-tracks_cover")}>
+                    <PlayCircleFill />
+                    <img src={song.pic} alt="" />
+                  </div>
+                  <h2>{song.title}</h2>
+                  <p>{song.clickNum}</p>
+                  <span>{song.duration}</span>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

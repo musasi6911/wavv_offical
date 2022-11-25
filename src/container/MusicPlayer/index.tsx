@@ -3,7 +3,6 @@ import classnames from "classnames/bind";
 import style from "./index.module.css";
 import top1 from "assets/top1.jpg";
 import { RootState } from "redux/store";
-import { useSelector } from "react-redux";
 import {
   VolumeUpFill,
   ArrowRepeat,
@@ -13,14 +12,17 @@ import {
   PlayCircle,
 } from "react-bootstrap-icons";
 
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { closeMusicPlayer } from "redux/musicPlayer/musicPlayerSlice";
 import { useNavigate } from "react-router-dom";
 
 const cx = classnames.bind(style);
 
 const MusicPlayer: React.FC = () => {
-  const { showPlayer } = useSelector((state: RootState) => state);
+  const {
+    showPlayer,
+    songDetail: { title, composer, pic },
+  } = useSelector((state: RootState) => state);
   const navigate = useNavigate();
   const dispatch = useDispatch();
   return (
@@ -35,9 +37,9 @@ const MusicPlayer: React.FC = () => {
           dispatch(closeMusicPlayer());
         }}
       >
-        <img src={top1} alt="" />
-        <h2>Past Fantasy</h2>
-        <span>@Kalem Alvarez</span>
+        <img src={pic} alt="" />
+        <h2>{title}</h2>
+        <span>{composer}</span>
       </div>
       <div className={cx("player-control")}>
         <ArrowRepeat />

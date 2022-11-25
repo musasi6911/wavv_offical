@@ -23,7 +23,8 @@
 .player-info {
   cursor: pointer;
   color: white;
-  flex-grow: 1;
+  flex: 1 0 30%;
+  /* width: 30%; */
 }
 
 .player-info img {
@@ -45,7 +46,7 @@
 }
 /* control */
 .player-control {
-  flex-grow: 3;
+  flex-grow: 3 0 40%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,7 +70,7 @@
 }
 /* volume */
 .player-volume {
-  flex-grow: 1;
+  flex: 1 0 30%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
