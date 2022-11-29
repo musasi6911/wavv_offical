@@ -260,6 +260,7 @@ nav .logo img{
   border-radius: 5px;
   display: flex;
   align-items: center;
+  line-height: 40px;
 }
 
 .top-upload img{
