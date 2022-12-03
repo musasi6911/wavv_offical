@@ -34,7 +34,8 @@
 }
 
 .file-upload-block p{
-  width: calc(60% - 10px);
+  /* width: calc(60% - 10px); */
+  flex-grow: 1;
   height: 40px;
   line-height: 40px;
   color: #ccc;

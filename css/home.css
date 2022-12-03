@@ -17,7 +17,9 @@
   font-weight: 700;
 }
 
-.top-ad p{}
+.top-ad p{
+  padding-right: 20px;
+}
 
 .top-ad img{
   width: 100%;
