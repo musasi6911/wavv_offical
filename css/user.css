@@ -11,10 +11,33 @@
   padding-bottom: 30px;
 }
 
-.user-head > img{
+.user-head_imgOuter{
+  position: relative;
+}
+
+.user-head_imgOuter b{
+  left: 0;
+  top: 0;
+}
+
+.user-head_imgInner{
   width: 300px;
+  height: 300px;
   border-radius: 50%;
   margin-right: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.user-head_imgInner img{
+  max-width: 300px;
+  max-height: 300px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 .user-head_info{}
@@ -23,10 +46,35 @@
   font-size: 42px;
   font-weight: 900;
   line-height: 2;
+  position: relative;
+}
+
+.user-edit_icon{
+  width: 26px;
+  height: 26px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  position: absolute;
+  left: -20px;
+  top: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.user-edit_icon i{
+  font-size: 14px;
+  color: #ccc;
 }
 
 .user-head_info p{
   margin-bottom: 20px;
+  position: relative;
+}
+
+.user-head_info p b{
+  top: -20px;
 }
 
 .user-head_info ul{
