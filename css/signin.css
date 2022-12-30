@@ -2,7 +2,7 @@
 .signin-wrapper{
   /* background-image: url(../img/signin_bg.jpg);
   background-size: cover; */
-  background-image: linear-gradient(-145deg, #fff 0%, color(srgb 0.2138 0.4067 0.4762) 100%);
+  background-image: linear-gradient(-145deg, #fff 0%, #336879 100%);
 }
 
 .signin-out{
