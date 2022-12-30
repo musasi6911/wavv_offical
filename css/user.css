@@ -57,7 +57,7 @@
   position: absolute;
   left: -20px;
   top: -5px;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   background-color: #fff;
@@ -74,7 +74,11 @@
 }
 
 .user-head_info p b{
-  top: -20px;
+  top: -23px;
+}
+
+.user-head_info h1:hover .user-edit_icon, .user-head_info p:hover .user-edit_icon, .user-head_imgOuter:hover .user-edit_icon{
+  display: flex;
 }
 
 .user-head_info ul{

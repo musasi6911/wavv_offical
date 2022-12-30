@@ -1,7 +1,8 @@
 
 .signin-wrapper{
-  background-image: url(../img/signin_bg.jpg);
-  background-size: cover;
+  /* background-image: url(../img/signin_bg.jpg);
+  background-size: cover; */
+  background-image: linear-gradient(-145deg, #fff 0%, color(srgb 0.2138 0.4067 0.4762) 100%);
 }
 
 .signin-out{
@@ -51,6 +52,7 @@
   border: 0;
   border-bottom: 1px solid #ccc;
   margin-bottom: 20px;
+  padding-left: 10px;
 }
 
 .signin-email input[type="Submit"]{
@@ -93,6 +95,11 @@
 }
 
 .signin-wallet{}
+
+.signin-wallet h2{
+  margin-bottom: 0;
+}
+
 
 .signin-wallet img{
   width: 70%;
