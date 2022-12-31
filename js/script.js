@@ -6,6 +6,11 @@ $(function(){
     return false;
   })
 
+  // Show Search
+  $('#top-search').click(function(){
+    $('.top-search').animate({top: 0, opacity: 1}, 500);
+  })
+
   // Composer Page
   $('#file-upload').change(function() {
     var i = $(this).prev('label').clone();
