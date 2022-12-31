@@ -311,9 +311,28 @@ nav .logo img{
   padding: 1px 30px 70px;
 }
 
+/* -------------- Authentication succeeded -------------- */
+.au-su{
+  background-image: url(../img/success_bg.png);
+  height: calc(100vh - 60px);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.au-su img{
+  width: 200px;
+}
 
+.au-su h1{
+  font-size: 24px;
+  font-weight: bold;
+}
 
+.au-su p{}
 
 
 
