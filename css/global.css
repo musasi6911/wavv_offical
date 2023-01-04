@@ -45,6 +45,61 @@ main{
   margin-left: 250px;
 }
 
+/* -------------- Global Popup -------------- */
+.popup-mask{
+  background-color: rgba(0,0,0,.3);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.popup{
+  max-width: 80%;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.popup i{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.popup h1{
+  line-height: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 30px;
+}
+
+.popup p{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.popup button{
+  display: block;
+  background-color: var(--pri-color);
+  border: 0;
+  height: 40px;
+  margin: 0 auto;
+  padding: 0 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+
 /* -------------- Bottom Player -------------- */
 .player{
   width: 100vw;
@@ -332,9 +387,19 @@ nav .logo img{
   font-weight: bold;
 }
 
-.au-su p{}
+.au-su p{
+  margin-bottom: 30px;
+}
 
-
+.au-su a{
+  display: inline-block;
+  margin: 0 auto;
+  background-color: var(--pri-color);
+  color: white;
+  line-height: 40px;
+  padding: 0 30px;
+  border-radius: 5px;
+}
 
 
 
