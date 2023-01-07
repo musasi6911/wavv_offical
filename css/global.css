@@ -409,6 +409,60 @@ nav .logo img{
   border-radius: 5px;
 }
 
+/* -------------- Verification Code -------------- */
+.vf-code{
+  width: 400px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.vf-code h1{
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.vf-code > p{
+  text-align: center;
+}
+
+.vf-code form{
+  text-align: center;
+}
+
+.vf-code form p{
+  margin-bottom: 10px;
+  color: var(--pri-color);
+}
+
+.vf-code form input[type='tel']{
+  width: 40px;
+  height: 45px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0 5px;
+}
+
+.vf-code form input[type='submit']{
+  display: block;
+  width: 200px;
+  height: 40px;
+  background-color: var(--pri-color);
+  margin: 50px auto 0;
+  border: 0;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
 
 
 

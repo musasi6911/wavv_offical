@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/rwd.css">
+    <link rel="icon" type="image/x-icon" href="favicon.svg">
+    <title>Wavv</title>
+  </head>
+<body>
+
+  <!-- Bottom Player -->
+  <div class="player" style="bottom: -80px;">
+    <a href="song_detail.html" class="player-info">
+      <img src="img/top1.jpg" alt="">
+      <h2>Past Fantasy</h2>
+      <span>@Kalem Alvarez</span>
+    </a>
+    <div class="player-control">
+      <i class="bi bi-arrow-repeat"></i>
+      <i class="bi bi-skip-start-fill"></i>
+      <i class="bi bi-play-circle"></i>
+      <i class="bi bi-skip-end-fill"></i>
+      <i class="bi bi-shuffle"></i>
+    </div>
+    <div class="player-volume">
+      <i class="bi bi-volume-up-fill"></i>
+      <div class="player-volume_bar">
+        <p style="width: 75%;"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- RWD Menu Mask -->
+  <div class="rwd-mask"></div>
+  
+  <div class="wrapper"><!-- Wrapper Start -->
+
+    <!-- Left Navigation -->
+    <nav>
+      <i class="bi bi-list"></i>
+      <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
+      <i class="bi bi-person-circle"></i>
+      <ul class="nav-main">
+        <li><a href="index.html"><i class="bi bi-house"></i>Home</a></li>
+        <li><a href="trending.html"><i class="bi bi-graph-up-arrow"></i>Trending</a></li>
+        <li><a href="javascript:;" id="top-search"><i class="bi bi-search"></i>Search</a></li>
+        <li><a href="favorite.html"><i class="bi bi-heart"></i>Favorite</a></li>
+        <li><a href="history.html"><i class="bi bi-clock-history"></i>History</a></li>
+      </ul>
+      <ul class="nav-sub">
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="javascript:;">Terms of Use</a></li>
+        <li><a href="javascript:;">Privacy Policy</a></li>
+        <li><a href="javascript:;">Follow Us</a></li>
+      </ul>
+    </nav>
+
+
+    <main><!-- Right Main Area start -->
+
+      <!-- Top Area -->
+      <div class="top">
+        <div class="top-search">
+          <i class="bi bi-search"></i>
+          <input type="text" placeholder="Singers or Songs...">
+        </div>
+        <div class="top-nologin">
+          <a href="signup.html"><i class="bi bi-person"></i>Sign In</a>
+        </div>
+        <!-- <div class="top-login">
+          <a href="user.html" class="top-userhead"><img src="img/head6.jpg" alt="">Margot Correa</a>
+          <a href="composer.html" class="top-upload"><img src="img/music-add.svg" alt="">Upload</a>
+        </div> -->
+      </div>
+
+      <div class="content au-su"><!-- Main Content Area start -->
+        
+        <div class="vf-code">
+          <h1>Security Verification</h1>
+          <p>To secure your account, please complete the following verification.</p>
+          <form action="">
+            <p>Verification code</p>
+            <input type="tel">
+            <input type="tel">
+            <input type="tel">
+            <input type="tel">
+            <input type="tel">
+            <input type="tel">
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        
+
+      </div><!-- Main Content Area end -->
+
+    </main><!-- Right Main Area end -->
+
+  </div><!-- Wrapper end -->
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
