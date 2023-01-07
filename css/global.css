@@ -415,21 +415,19 @@ nav .logo img{
   padding: 30px;
   border: 1px solid #ccc;
   border-radius: 10px;
+  text-align: center;
 }
 
 .vf-code h1{
-  text-align: center;
   border-bottom: 1px solid #e5e5e5;
   margin-bottom: 20px;
   padding-bottom: 10px;
 }
 
-.vf-code > p{
-  text-align: center;
-}
+.vf-code > p{}
 
 .vf-code form{
-  text-align: center;
+  margin-bottom: 20px;
 }
 
 .vf-code form p{
@@ -460,7 +458,14 @@ nav .logo img{
   cursor: pointer;
 }
 
-
+.vf-code a{
+  text-align: center;
+  background-color: transparent;
+  color: #333;
+  padding: 0;
+  border-radius: 0;
+  font-size: 13px;
+}
 
 
 
