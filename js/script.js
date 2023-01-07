@@ -1,5 +1,16 @@
 $(function(){
 
+  // RWD Menu Control
+  $('.bi-list').click(function(){
+    $('.rwd-mask').css('display', 'block');
+    $('.nav-main, .nav-sub').css('left', 0);
+  })
+
+  $('.bi-person-circle').click(function(){
+    $('.rwd-mask').css('display', 'block');
+    $('.top').css('right', 0);
+  })
+
   // Show Player
   $('.list-square a, .song-detail_more a, .song-detail_play, .user-tracks ul li').click(function(){
     $('.player').animate({bottom: 0}, 500);
@@ -31,6 +42,7 @@ $(function(){
       blah.src = URL.createObjectURL(file);
     }
   }
+
   
 
 })

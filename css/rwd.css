@@ -1,0 +1,303 @@
+
+@media screen and (max-width: 768px) {
+  
+  .wrapper{
+    flex-direction: column;
+  }
+
+  .rwd-mask{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.3);
+    z-index: 10;
+  }
+
+  nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    padding: 0 20px; 
+  }
+
+  nav > i{
+    display: block;
+    font-size: 24px;
+  }
+
+  nav .logo{}
+
+  nav .logo img{
+    height: 36px;
+    margin: 0;
+  }
+
+  .nav-main{
+    position: fixed;
+    left: -60vw;
+    top: 60px;
+    margin: 0;
+    width: 60vw;
+    height: calc(100vh - 60px);
+    padding-top: 20px;
+    background-color: #fff;
+    transition: 1s;
+  }
+
+  .nav-sub{
+    position: fixed;
+    left: -60vw;
+    top: 340px;
+    width: 60vw;
+    border-top: 1px solid #e5e5e5;
+    transition: 1s;
+  }
+
+  main{
+    margin-left: 0;
+  }
+
+  .top{
+    position: fixed;
+    right: -60vw;
+    top: 60px;
+    width: 60vw;
+    left: auto;
+    border-bottom: 0;
+    height: calc(100vh - 60px);
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 20px;
+    transition: 1s;
+  }
+
+  .top-nologin{
+    padding-right: 0;
+  }
+
+  .top-login{
+    flex-direction: column;
+    padding-right: 0;
+  }
+
+  .top-login .top-userhead{
+    margin-right: 0;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+
+  .top-login .top-userhead img{
+    width: 100px;
+    margin-bottom: 10px;
+  }
+
+  .top-upload{}
+
+  .top-search{
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+  }
+
+  .content{
+    padding: 0 20px 50px;
+    margin-top: 80px;
+  }
+
+  .top-ad{
+    margin-top: 30px;
+    height: 150px;
+    overflow: hidden;
+  }
+
+  .top-ad .ad-text{
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+  }
+
+  .top-ad h2{
+    font-size: 18px;
+  }
+
+  .top-ad p{
+    font-size: 13px;
+  }
+
+  .top-ad img{
+    width: auto;
+    height: 100%;
+  }
+
+  .list-title{
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .list{
+    flex-wrap: nowrap;
+    overflow: scroll;
+  }
+
+  .list li{
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+
+  .list-square i{
+    left: 60px;
+    top: 60px;
+    font-size: 48px;
+  }
+
+  .list img{
+    width: 120px;
+  }
+
+  .list h2{
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  /* Song Detail */
+  .song-detail_out{
+    width: auto;
+  }
+
+  .song-detail_head{
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .song-detail_head > img{
+    margin-right: 0;
+  }
+
+  .song-detail_singer{}
+
+  .song-detail_singer h1{
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+  }
+
+  .song-detail_singer p{
+    margin-bottom: 0;
+    padding: 0 20px 20px 20px;
+    text-align: center;
+  }
+
+  .song-detail_info{
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .song-detail_info li{}
+
+  .song-detail_btns{
+    justify-content: center;
+  }
+
+  .song-detail_btns li{
+    margin: 0 5px;
+  }
+
+  .song-detail_btns button{
+    width: 110px;
+    font-size: 14px;
+  }
+
+  .song-detail_more h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .song-detail_more ul{
+    overflow: auto;
+  }
+
+  .song-detail_more li{
+    margin-right: 20px;
+  }
+
+  .song-detail_more img{
+    width: 120px;
+  }
+
+  .song-detail_more h2{
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  .song-detail_more i{
+    left: 60px;
+    top: 60px;
+    font-size: 48px;
+  }
+
+  .song-detail_comments{}
+
+  .song-detail_comments h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .comments-text form{}
+
+  .comments-text div{
+    margin-bottom: 10px;
+  }
+
+  .comments-text button{}
+
+
+  /* Player */
+  .player{}
+
+  .player-control{
+    flex-grow: 0;
+  }
+
+  .player-control i{
+    display: none;
+  }
+
+  .player-control .bi-play-circle{
+    display: block;
+  }
+
+  .player-volume{
+    display: none;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

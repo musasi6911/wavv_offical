@@ -31,6 +31,10 @@ input, textarea, button{
   display: flex;
 }
 
+.rwd-mask{
+  display: none;
+}
+
 nav{
   background-color: #f6f6f6;
   width: 250px;
@@ -38,6 +42,10 @@ nav{
   position: fixed;
   left: 0;
   top: 0;
+}
+
+nav > i{
+  display: none;
 }
 
 main{
