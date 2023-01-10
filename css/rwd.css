@@ -167,7 +167,7 @@
     line-height: 1.2;
   }
 
-  /* Song Detail */
+  /* -------------- Song Detail -------------- */
   .song-detail_out{
     width: auto;
   }
@@ -266,8 +266,100 @@
 
   .comments-text button{}
 
+  /* -------------- User -------------- */
+  .user-out{
+    width: auto;
+  }
 
-  /* Player */
+  .user-head{
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .user-head_imgOuter{}
+
+  .user-head_imgInner{
+    margin-right: 0;
+  }
+
+  .user-head_imgInner img{}
+
+  .user-head_info h1{
+    text-align: center;
+  }
+
+  .user-head_info p{
+    text-align: center;
+  }
+
+  .user-head_info ul{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .user-head_info ol{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .user-head_info ol li{
+    margin: 0 5px 10px;
+  }
+
+  .user-head_info ol button{
+    width: 110px;
+    font-size: 14px;
+  }
+
+  .user-head_info ol li:nth-child(4){
+    flex-basis: calc(100% - 22px);
+  }
+
+  .user-head_info ol li:nth-child(4) button{
+    width: 100%;
+  }
+
+  /* -------------- Sign in -------------- */
+  .signin-wrapper{
+    margin-top: 60px;
+    padding-top: 30px;
+  }
+
+  .signin-out{
+    height: auto;
+    flex-direction: column;
+  }
+
+  .signin-out > div{
+    width: 95%;
+    height: auto;
+  }
+
+  .signin-email ul{
+    margin-top: 30px;
+  }
+
+  /* -------------- Message & VF-code -------------- */
+  .au-su{
+    padding: 0 20px;
+    margin-top: 60px;
+    background-image: url(../img/success_bg_mobile.png);
+  }
+
+  .vf-code{
+    background-color: #fff;
+    width: 95%;
+  }
+
+  .vf-code form input[type='tel']{
+    width: 12%;
+  }
+
+
+  /* -------------- Player -------------- */
   .player{}
 
   .player-control{
