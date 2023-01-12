@@ -145,6 +145,7 @@
   .list{
     flex-wrap: nowrap;
     overflow: scroll;
+    margin: 0 -20px;
   }
 
   .list li{
