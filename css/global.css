@@ -339,6 +339,7 @@ nav .logo img{
 .top-login{
   padding-right: 20px;
   display: flex;
+  position: relative;
 }
 
 .top-login .top-userhead{
@@ -351,6 +352,55 @@ nav .logo img{
   width: 40px;
   border-radius: 50%;
   margin-right: 10px;
+}
+
+/* user dropdown menu */
+.top-user_dropdown{
+  position: absolute;
+  left: 0;
+  top: 49px;
+  width: 200px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 3px 3px 5px rgba(0,0,0,.3);
+  padding: 10px;
+}
+
+.top-user_dropdown:before{
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border: 10px solid red;
+  position: absolute;
+  left: 10px;
+  top: -20px;
+  border-color: transparent transparent white transparent;
+  z-index: 1;
+}
+
+.top-user_dropdown:after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border: 10px solid red;
+  position: absolute;
+  left: 10px;
+  top: -21px;
+  border-color: transparent transparent #ccc transparent;
+}
+
+.top-user_dropdown li{}
+
+.top-user_dropdown a{
+  display: block;
+  line-height: 1;
+  padding: 10px;
+}
+
+.top-user_dropdown a:hover{
+  background-color: #e5e5e5;
 }
 
 .top-upload{

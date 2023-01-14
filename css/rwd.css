@@ -135,6 +135,15 @@
     height: 100%;
   }
 
+  .top-user_dropdown{
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  .top-user_dropdown:before, .top-user_dropdown:after{
+    display: none;
+  }
+
   .list-title{
     font-size: 20px;
     padding-bottom: 10px;

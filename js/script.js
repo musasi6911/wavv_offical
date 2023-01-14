@@ -11,6 +11,12 @@ $(function(){
     $('.top').css('right', 0);
   })
 
+  // User Dropdown Menu
+  $('.top-user_dropdown').hide();
+  $('.top-userhead').click(function(){
+    $('.top-user_dropdown').toggle();
+  })
+
   // Show Player
   $('.list-square a, .song-detail_more a, .song-detail_play, .user-tracks ul li').click(function(){
     $('.player').animate({bottom: 0}, 500);
