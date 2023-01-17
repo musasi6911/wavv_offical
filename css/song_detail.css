@@ -230,10 +230,31 @@
   color: #ccc;
 }
 
+/* --------------- Composer Confirm --------------- */
+.publish-confirm{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
 
+.publish-confirm a{
+  background-color: var(--pri-color);
+  padding: 0 30px;
+  line-height: 50px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  margin: 0 20px;
+}
 
+.publish-confirm i{
+  margin-right: 10px;
+}
 
-
+.publish-confirm a:first-child{
+  background-color: #ccc;
+  color: #333;
+}
 
 
 
