@@ -101,8 +101,14 @@
   .top-search{
     position: fixed;
     left: 0;
-    top: 0;
-    display: none;
+    top: auto !important;
+    bottom: -50px;
+    padding-left: 10px;
+    width: 60vw;
+  }
+
+  .top-search input{
+    width: calc(100% - 60px);
   }
 
   .content{
@@ -218,11 +224,17 @@
 
   .song-detail_btns{
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   .song-detail_btns li{
     margin: 0 5px;
     flex-basis: 30%;
+    margin-top: 10px;
+  }
+
+  .song-detail_btns li:nth-child(4){
+    flex-basis: calc(100% - 18px);
   }
 
   .song-detail_btns button{
@@ -330,11 +342,15 @@
   }
 
   .user-head_info ol li:nth-child(4){
-    flex-basis: calc(100% - 22px);
+    flex-basis: calc(100% - 18px);
   }
 
   .user-head_info ol li:nth-child(4) button{
     width: 100%;
+  }
+
+  .user-tracks ul li{
+    padding: 10px 0;
   }
 
   /* -------------- Sign in -------------- */

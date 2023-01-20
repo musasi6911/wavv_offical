@@ -25,7 +25,12 @@ $(function(){
 
   // Show Search
   $('#top-search').click(function(){
-    $('.top-search').animate({top: 0, opacity: 1}, 500);
+    if($(window.innerWidth >= 768)){
+      $('.top-search').animate({top: 0, opacity: 1}, 500);
+    }
+    if($(window.innerWidth <= 768)){
+      $('.top-search').animate({bottom: 10, opacity: 1}, 500);
+    }
   })
 
   // Composer Page
