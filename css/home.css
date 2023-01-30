@@ -52,11 +52,22 @@
   position: relative;
 }
 
-.list img{
-  display: block;
-  border-radius: 50%;
+.list div{
   width: 180px;
+  height: 180px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
   margin-bottom: 10px;
+}
+
+.list img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .list h2{
@@ -64,8 +75,9 @@
 }
 
 /* Square List */
-.list-square img{
+.list-square div{
   border-radius: 0;
+  background-color: #f6f6f6;
 }
 
 .list-square span{
@@ -85,6 +97,7 @@
   color: var(--pri-color);
   background-image: radial-gradient(#fff 20%, transparent);
   border-radius: 50%;
+  z-index: 1;
 }
 
 .list-square a:hover i{
