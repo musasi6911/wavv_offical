@@ -12,9 +12,21 @@
   margin-bottom: 30px;
 }
 
-.song-detail_head > img{
+.song-detail_cover{
   width: 280px;
+  height: 280px;
+  flex-shrink: 0;
   margin-right: 20px;
+  position: relative;
+}
+
+.song-detail_cover img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .song-detail_singer{
@@ -127,10 +139,21 @@
   position: relative;
 }
 
-.song-detail_more img{
-  display: block;
+.song-detail_more div{
   width: 180px;
+  height: 180px;
   margin-bottom: 10px;
+  position: relative;
+  background-color: #f6f6f6;
+}
+
+.song-detail_more img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .song-detail_more h2{}
@@ -146,6 +169,7 @@
   color: var(--pri-color);
   background-image: radial-gradient(#fff 20%, transparent);
   border-radius: 50%;
+  z-index: 1;
 }
 
 .song-detail_more a:hover i{
