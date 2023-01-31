@@ -27,17 +27,16 @@
   margin-right: 30px;
   overflow: hidden;
   position: relative;
+  background-color: #f6f6f6;
 }
 
 .user-head_imgInner img{
   max-width: 300px;
   max-height: 300px;
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .user-head_info{}
