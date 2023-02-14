@@ -164,7 +164,8 @@
   }
 
   .list li{
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
     margin-bottom: 20px;
   }
 
@@ -172,6 +173,11 @@
     left: 60px;
     top: 60px;
     font-size: 48px;
+  }
+
+  .list div{
+    width: 120px;
+    height: 120px;
   }
 
   .list img{
