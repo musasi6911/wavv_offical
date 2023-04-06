@@ -1,0 +1,80 @@
+
+/* ------------------ Singer History -------------------- */
+.history-singer{}
+
+.history-singer li{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 0;
+}
+
+.history-singer a{
+  display: flex;
+  align-items: center;
+}
+
+.history-singer img{
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.history-singer h4{
+  font-size: 18px;
+}
+
+.history-singer span{
+  color: #999;
+  margin-left: auto;
+}
+
+
+/* ------------------ Songs History -------------------- */
+.history-songs{}
+
+.history-songs li{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 0;
+}
+
+.history-songs a{
+  display: flex;
+  align-items: center;
+}
+
+.history-songs img{
+  height: 40px;
+  margin-right: 10px;
+}
+
+.history-songs h4{
+  font-size: 18px;
+}
+
+.history-songs span{
+  color: #999;
+  margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

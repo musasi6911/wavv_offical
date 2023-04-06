@@ -1,0 +1,14 @@
+
+.about-logo{
+  display: block;
+  margin: 50px auto;
+}
+
+.about-us{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-us p{
+  margin-bottom: 30px;
+}

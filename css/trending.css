@@ -1,0 +1,118 @@
+
+/* ---------------- Trending Singers List ----------------- */
+.trend-singer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.trend-singer li{
+  display: flex;
+  flex-grow: 1;
+  border: 1px solid #e5e5e5;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trend-singer a{
+  display: flex;
+  align-items: center;
+}
+
+.trend-singer a h4{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.trend-singer a img{
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.trend-singer a span{
+  color: #999;
+  margin-right: 20px;
+}
+
+.trend-singer p{
+  font-size: 18px;
+}
+
+.trend-singer i{
+  margin-right: 5px;
+}
+
+.trend-singer_songs{}
+
+.trend-singer_play{}
+
+.trend-singer_fav{}
+
+/* ---------------- Trending Songs List ----------------- */
+.trend-song{}
+
+.trend-song li{
+  display: flex;
+  flex-grow: 1;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trend-song_out{
+  display: flex;
+  align-items: center;
+}
+
+.trend-song_cover{
+  margin-right: 20px;
+}
+
+.trend-song_cover img{
+  height: 80px;
+  display: block;
+}
+
+.trend-song_info{}
+
+.trend-song_info a{
+  display: flex;
+  align-items: center;
+}
+
+.trend-song_info h4{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.trend-song_info strong{
+  color: #999;
+}
+
+.trend-song_info img{
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.trend-song_tool{}
+
+.trend-song_tool span{
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.trend-song_tool i{
+  margin-right: 10px;
+  font-size: 32px;
+  color: var(--pri-color);
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+
+
