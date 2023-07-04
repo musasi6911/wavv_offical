@@ -118,11 +118,12 @@
 
   .top-ad{
     margin-top: 30px;
-    height: 150px;
-    overflow: hidden;
+    height: 210px;
+    overflow-x: scroll;
+    overflow-y: hidden;
     margin-bottom: 30px;
-    margin-left: -20px;
     margin-right: -20px;
+    width: auto;
   }
 
   .top-ad .ad-text{
